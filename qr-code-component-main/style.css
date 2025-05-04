@@ -1,0 +1,52 @@
+/* Import Outfit font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    margin: 0;
+    padding: 20px;
+   
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    min-height: 100vh;
+    margin: 0;
+}
+
+.qr-code-card {
+    max-width: 375px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.qr-code-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.qr-code-card h1 {
+    font-size: 22px;
+    margin: 20px 0 10px;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+
+.qr-code-card p {
+    font-size: 15px;
+    color: hsl(216, 15%, 48%);
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+
